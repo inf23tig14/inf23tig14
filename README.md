@@ -31,7 +31,7 @@ Our website is about sports it has html,css and javaScript
 
 
 ## Link para o netlify
-https://inf23tig14.netlify.app/src/index.html
+https://inf23tig14.netlify.app
 
 ## Team
 * [@Daniel Casal](https://github.com/casalsss)
