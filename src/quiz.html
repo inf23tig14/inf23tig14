@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="sports.html">Desportos</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <fieldset>
+        <h2>Qual o Jogador?</h2>
+
+        <a>1.</a><br>
+        <img src="img/ronaldo.png" alt="Img"><br><br>
+        <input type="radio" name="question1">Danilo <br>
+        <input type="radio" name="question1">Pepe <br>
+        <input type="radio" name="question1" id="correct1">Ronaldo <br>
+        <input type="radio" name="question1">Joao Felix <br><br>
+
+        <a>2.</a><br>
+        <img src="img/Ney.png" alt="Img"><br><br>
+        <input type="radio" name="question2" id="correct2">Neymar <br>
+        <input type="radio" name="question2">Joao Neves <br>
+        <input type="radio" name="question2">Pelé <br>
+        <input type="radio" name="question2">Diego Maradona <br><br>
+
+        <a>3.</a><br>
+        <img src="img/Messi.png" alt="Img"><br><br>
+        <input type="radio" name="question3" id="correct3">Messi <br>
+        <input type="radio" name="question3">Ángel Di María <br>
+        <input type="radio" name="question3">Enzo Fernánde <br>
+        <input type="radio" name="question3">Nicolás Otamendi <br><br>
+
+        <a>4.</a><br>
+        <img src="img/Mbp.png" alt="Img"><br>
+        <input type="radio" name="question4">Donatello <br>
+        <input type="radio" name="question4">Adrien Rabiot <br>
+        <input type="radio" name="question4">Ousmane Dembélé <br>
+        <input type="radio" name="question4" id="correct4">Mbappé <br><br>
+
+        <input class="butao" type="submit" name="submit" value="Enviar Respostas" onClick="result()">
+    </fieldset>
+
+    <script>
+        function result() {
+            var score = 0;
+            if (document.getElementById('correct1').checked) { score++; }
+            if (document.getElementById('correct2').checked) { score++; }
+            if (document.getElementById('correct3').checked) { score++; }
+            if (document.getElementById('correct4').checked) { score++; }
+            alert("Your score is: " + score);
+        }
+    </script>
+</body>
+</html>

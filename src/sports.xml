@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sports>
+    <sport>
+        <name>Futebol</name>
+        <players>11</players>
+    </sport>
+    <sport>
+        <name>Basquetebol</name>
+        <players>5</players>
+    </sport>
+    <sport>
+        <name>Ténis</name>
+        <players>1</players>
+    </sport>
+    <sport>
+        <name>Natação</name>
+        <players>1</players>
+    </sport>
+</sports>

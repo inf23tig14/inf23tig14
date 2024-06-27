@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Principal{
+    background-image: url('img/sports1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a{
+    color: lightblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea, button {
+    margin-bottom: 1em;
+}
+
+
+button {
+    width: 100px;
+}
+
+input {
+    width: 200px;
+}
+
+textarea {
+    width: 300px ;
+    height: 100px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border:1px solid black;
+    max-width: 200px;
+    max-height: 200px;
+
+}
+
+
+td{
+    border:1px solid black;
+}
+
+
+img{ 
+    width: 200px;
+    height: 200px ;
+
+}
